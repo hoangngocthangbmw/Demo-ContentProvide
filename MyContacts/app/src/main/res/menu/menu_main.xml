@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.androidtutorialpoint.mycontacts.Screen.MainActivity">
+    <item
+        android:id="@+id/deleteAllContacts"
+        android:orderInCategory="100"
+        android:title="@string/delete_all_contacts"
+        app:showAsAction="never" />
+    <item
+        app:showAsAction="never"
+        android:title="click"
+        android:id="@+id/mnuMain2">
+
+    </item>
+</menu>
